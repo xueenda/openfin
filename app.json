@@ -1,1 +1,53 @@
-
+{
+  "platform": {
+    "uuid": "trader_coverage",
+    "applicationIcon": "http://10.112.105.103:9528/favicon.ico",
+    "autoShow": false,
+    "defaultWindowOptions": {
+      "backgroundColor": "#111118",
+      "url": "http://10.112.105.103:9528/openfin_main.html",
+      "cornerRounding": {
+        "height": 10,
+        "width": 10
+      },
+      "contextMenu": true
+    }
+  },
+  "snapshot": {
+    "windows": [
+      {
+        "defaultWidth": 1370,
+        "defaultHeight": 500,
+        "layout": {
+          "content": [
+            {
+              "hasHeaders": false,
+              "type": "stack",
+              "content": [
+                {
+                  "type": "component",
+                  "componentName": "view",
+                  "componentState": {
+                    "name": "component_trader_coverage",
+                    "processAffinity": "ps_1",
+                    "url": "http://10.112.105.103:9528/#/detach/coverage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "BMO Capital Markets",
+    "description": "US Rates Trader Coverage Terminal",
+    "icon": "http://10.112.105.103:9528/favicon.ico",
+    "name": "Trader Coverage Terminal"
+  }
+}
