@@ -5,7 +5,7 @@
     "autoShow": false,
     "defaultWindowOptions": {
       "backgroundColor": "#111118",
-      "url": "http://10.112.105.103:9528/openfin_main.html",
+      "url": "http://10.112.105.103:9528/openfin/openfin_main.html",
       "cornerRounding": {
         "height": 10,
         "width": 10
