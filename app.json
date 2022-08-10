@@ -40,7 +40,6 @@
       }
     ]
   },
-  "licenseKey": "1e3dbc0f-15eb-4f1d-b577-b065c637e1fz",
   "runtime": {
     "arguments": "--v=1 --inspect",
     "version": "stable"
